@@ -41,7 +41,7 @@ const App = () => {
 
   // Render the application with routes and components
   return (
-    <Router>
+    <Router basename="/taskmanager">
       <Routes>
         {/* Route for the landing page showing all tasks */}
         <Route
