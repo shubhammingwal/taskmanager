@@ -1,0 +1,74 @@
+/* TaskDetail.css */
+.task-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .task-detail-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .task-detail-container p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .task-detail-container .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-detail-container .back-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .task-detail-container {
+      padding: 15px;
+    }
+  
+    .task-detail-container h1 {
+      font-size: 20px;
+    }
+  
+    .task-detail-container p {
+      font-size: 14px;
+    }
+  
+    .task-detail-container .back-link {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .task-detail-container {
+      padding: 10px;
+    }
+  
+    .task-detail-container h1 {
+      font-size: 18px;
+    }
+  
+    .task-detail-container p {
+      font-size: 12px;
+    }
+  
+    .task-detail-container .back-link {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+  }
+  
